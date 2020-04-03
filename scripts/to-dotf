@@ -1,0 +1,12 @@
+#!/bin/bash
+
+if [ -z "$1" ] 
+then                                                              
+  echo "Please provide file/dir to copy to dotfiles folder"                              
+  exit 1;                                                       
+fi  
+
+DOTF_DIR=/home/user/dotfiles
+
+mv $1 $DOTF_DIR/$1
+ln -s $DOTF_DIR/$1 $1
