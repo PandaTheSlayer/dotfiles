@@ -200,7 +200,7 @@ for_window [class="Spotify"] move to workspace $ws10
 exec "setxkbmap -layout us,ru -option grp:alt_shift_toggle,grp_led:scroll"
 exec spotify
 exec $webbrowse
-exec compton -fc --config=/home/user/.config/i3/compton-new.conf
+exec LC_CTYPE=C compton -fc --config=/home/user/.config/i3/compton-new.conf
 exec --no-startup-id feh --bg-fill ~/background.jpg
 # exec shutter
 
