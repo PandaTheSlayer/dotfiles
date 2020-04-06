@@ -27,10 +27,10 @@ call plug#end()
 "
 "
 " Theme options
-set t_Co=256
+" set t_Co=256
 colorscheme darcula
 set background=dark    " Setting dark mode
-set termguicolors
+" set termguicolors
 """ Hilight search and set numbers
 set hlsearch
 highlight Search guibg=#af005f ctermbg=125
